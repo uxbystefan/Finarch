@@ -1,1 +1,1 @@
-# fintech-platform
+# Finarch
