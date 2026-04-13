@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/geist';
+@import '@fontsource-variable/jetbrains-mono';
+
+/* Design Tokens */
+@theme {
+	--color-bg: #0B0B0F;
+	--color-primary: #00C896;
+	--color-primary-dark: #00A57B;
+	--color-text: #F0F0F0;
+	--color-text-muted: rgba(240, 240, 240, 0.7);
+	--color-border: rgba(255, 255, 255, 0.08);
+	--color-surface: #111116;
+	--color-surface-hover: #16161C;
+
+	--font-heading: 'Geist Variable', 'Geist', system-ui, sans-serif;
+	--font-body: 'Haskoy', system-ui, sans-serif;
+	--font-mono: 'JetBrains Mono Variable', 'JetBrains Mono', monospace;
+}
+
+/* Base Styles */
+html {
+	background-color: var(--color-bg);
+	color: var(--color-text);
+	font-family: var(--font-body);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	min-height: 100vh;
+}
